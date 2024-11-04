@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		312FC3A726175FD50031D740 /* DailyMoneyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312FC3A626175FD50031D740 /* DailyMoneyApp.swift */; };
+		312FC3A926175FD50031D740 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312FC3A826175FD50031D740 /* ContentView.swift */; };
+		312FC3AB26175FD80031D740 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 312FC3AA26175FD80031D740 /* Assets.xcassets */; };
+		312FC3AE26175FD80031D740 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 312FC3AD26175FD80031D740 /* Preview Assets.xcassets */; };
+		312FC3B926175FD80031D740 /* DailyMoneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312FC3B826175FD80031D740 /* DailyMoneyTests.swift */; };
+		312FC3C426175FD80031D740 /* DailyMoneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312FC3C326175FD80031D740 /* DailyMoneyUITests.swift */; };
+		312FC3D5261760F70031D740 /* Amount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312FC3D4261760F70031D740 /* Amount.swift */; };
+		312FC3DA261767E20031D740 /* Parts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312FC3D9261767E20031D740 /* Parts.swift */; };
+		312FC3DF26176A390031D740 /* CalcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312FC3DE26176A390031D740 /* CalcView.swift */; };
+		312FC3E426177A1F0031D740 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312FC3E326177A1F0031D740 /* Function.swift */; };
+		313BC926263DBEBF007947ED /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313BC925263DBEBF007947ED /* SettingView.swift */; };
+		318F83F82618D2AD0002C81A /* LastDays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318F83F72618D2AD0002C81A /* LastDays.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		312FC3B526175FD80031D740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 312FC39B26175FD50031D740 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 312FC3A226175FD50031D740;
+			remoteInfo = DailyMoney;
+		};
+		312FC3C026175FD80031D740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 312FC39B26175FD50031D740 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 312FC3A226175FD50031D740;
+			remoteInfo = DailyMoney;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		312FC3A326175FD50031D740 /* DailyMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		312FC3A626175FD50031D740 /* DailyMoneyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyMoneyApp.swift; sourceTree = "<group>"; };
+		312FC3A826175FD50031D740 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		312FC3AA26175FD80031D740 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		312FC3AD26175FD80031D740 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		312FC3AF26175FD80031D740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		312FC3B426175FD80031D740 /* DailyMoneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyMoneyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		312FC3B826175FD80031D740 /* DailyMoneyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyMoneyTests.swift; sourceTree = "<group>"; };
+		312FC3BA26175FD80031D740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		312FC3BF26175FD80031D740 /* DailyMoneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyMoneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		312FC3C326175FD80031D740 /* DailyMoneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyMoneyUITests.swift; sourceTree = "<group>"; };
+		312FC3C526175FD80031D740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		312FC3D4261760F70031D740 /* Amount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amount.swift; sourceTree = "<group>"; };
+		312FC3D9261767E20031D740 /* Parts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parts.swift; sourceTree = "<group>"; };
+		312FC3DE26176A390031D740 /* CalcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcView.swift; sourceTree = "<group>"; };
+		312FC3E326177A1F0031D740 /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
+		313BC925263DBEBF007947ED /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		318F83F72618D2AD0002C81A /* LastDays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastDays.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		312FC3A026175FD50031D740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312FC3B126175FD80031D740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312FC3BC26175FD80031D740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		312FC39A26175FD50031D740 = {
+			isa = PBXGroup;
+			children = (
+				312FC3A526175FD50031D740 /* DailyMoney */,
+				312FC3B726175FD80031D740 /* DailyMoneyTests */,
+				312FC3C226175FD80031D740 /* DailyMoneyUITests */,
+				312FC3A426175FD50031D740 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		312FC3A426175FD50031D740 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				312FC3A326175FD50031D740 /* DailyMoney.app */,
+				312FC3B426175FD80031D740 /* DailyMoneyTests.xctest */,
+				312FC3BF26175FD80031D740 /* DailyMoneyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		312FC3A526175FD50031D740 /* DailyMoney */ = {
+			isa = PBXGroup;
+			children = (
+				316643DC2619DD3A007AF71F /* View */,
+				312FC3A626175FD50031D740 /* DailyMoneyApp.swift */,
+				312FC3E326177A1F0031D740 /* Function.swift */,
+				312FC3AA26175FD80031D740 /* Assets.xcassets */,
+				312FC3AF26175FD80031D740 /* Info.plist */,
+				312FC3AC26175FD80031D740 /* Preview Content */,
+			);
+			path = DailyMoney;
+			sourceTree = "<group>";
+		};
+		312FC3AC26175FD80031D740 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				312FC3AD26175FD80031D740 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		312FC3B726175FD80031D740 /* DailyMoneyTests */ = {
+			isa = PBXGroup;
+			children = (
+				312FC3B826175FD80031D740 /* DailyMoneyTests.swift */,
+				312FC3BA26175FD80031D740 /* Info.plist */,
+			);
+			path = DailyMoneyTests;
+			sourceTree = "<group>";
+		};
+		312FC3C226175FD80031D740 /* DailyMoneyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				312FC3C326175FD80031D740 /* DailyMoneyUITests.swift */,
+				312FC3C526175FD80031D740 /* Info.plist */,
+			);
+			path = DailyMoneyUITests;
+			sourceTree = "<group>";
+		};
+		316643DC2619DD3A007AF71F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				312FC3A826175FD50031D740 /* ContentView.swift */,
+				313BC925263DBEBF007947ED /* SettingView.swift */,
+				312FC3D4261760F70031D740 /* Amount.swift */,
+				312FC3D9261767E20031D740 /* Parts.swift */,
+				318F83F72618D2AD0002C81A /* LastDays.swift */,
+				312FC3DE26176A390031D740 /* CalcView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		312FC3A226175FD50031D740 /* DailyMoney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 312FC3C826175FD80031D740 /* Build configuration list for PBXNativeTarget "DailyMoney" */;
+			buildPhases = (
+				312FC39F26175FD50031D740 /* Sources */,
+				312FC3A026175FD50031D740 /* Frameworks */,
+				312FC3A126175FD50031D740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DailyMoney;
+			productName = DailyMoney;
+			productReference = 312FC3A326175FD50031D740 /* DailyMoney.app */;
+			productType = "com.apple.product-type.application";
+		};
+		312FC3B326175FD80031D740 /* DailyMoneyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 312FC3CB26175FD80031D740 /* Build configuration list for PBXNativeTarget "DailyMoneyTests" */;
+			buildPhases = (
+				312FC3B026175FD80031D740 /* Sources */,
+				312FC3B126175FD80031D740 /* Frameworks */,
+				312FC3B226175FD80031D740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				312FC3B626175FD80031D740 /* PBXTargetDependency */,
+			);
+			name = DailyMoneyTests;
+			productName = DailyMoneyTests;
+			productReference = 312FC3B426175FD80031D740 /* DailyMoneyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		312FC3BE26175FD80031D740 /* DailyMoneyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 312FC3CE26175FD80031D740 /* Build configuration list for PBXNativeTarget "DailyMoneyUITests" */;
+			buildPhases = (
+				312FC3BB26175FD80031D740 /* Sources */,
+				312FC3BC26175FD80031D740 /* Frameworks */,
+				312FC3BD26175FD80031D740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				312FC3C126175FD80031D740 /* PBXTargetDependency */,
+			);
+			name = DailyMoneyUITests;
+			productName = DailyMoneyUITests;
+			productReference = 312FC3BF26175FD80031D740 /* DailyMoneyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		312FC39B26175FD50031D740 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					312FC3A226175FD50031D740 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					312FC3B326175FD80031D740 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 312FC3A226175FD50031D740;
+					};
+					312FC3BE26175FD80031D740 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 312FC3A226175FD50031D740;
+					};
+				};
+			};
+			buildConfigurationList = 312FC39E26175FD50031D740 /* Build configuration list for PBXProject "DailyMoney" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 312FC39A26175FD50031D740;
+			productRefGroup = 312FC3A426175FD50031D740 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				312FC3A226175FD50031D740 /* DailyMoney */,
+				312FC3B326175FD80031D740 /* DailyMoneyTests */,
+				312FC3BE26175FD80031D740 /* DailyMoneyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		312FC3A126175FD50031D740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312FC3AE26175FD80031D740 /* Preview Assets.xcassets in Resources */,
+				312FC3AB26175FD80031D740 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312FC3B226175FD80031D740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312FC3BD26175FD80031D740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		312FC39F26175FD50031D740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312FC3DA261767E20031D740 /* Parts.swift in Sources */,
+				312FC3A926175FD50031D740 /* ContentView.swift in Sources */,
+				312FC3A726175FD50031D740 /* DailyMoneyApp.swift in Sources */,
+				312FC3E426177A1F0031D740 /* Function.swift in Sources */,
+				318F83F82618D2AD0002C81A /* LastDays.swift in Sources */,
+				313BC926263DBEBF007947ED /* SettingView.swift in Sources */,
+				312FC3DF26176A390031D740 /* CalcView.swift in Sources */,
+				312FC3D5261760F70031D740 /* Amount.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312FC3B026175FD80031D740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312FC3B926175FD80031D740 /* DailyMoneyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312FC3BB26175FD80031D740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312FC3C426175FD80031D740 /* DailyMoneyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		312FC3B626175FD80031D740 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 312FC3A226175FD50031D740 /* DailyMoney */;
+			targetProxy = 312FC3B526175FD80031D740 /* PBXContainerItemProxy */;
+		};
+		312FC3C126175FD80031D740 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 312FC3A226175FD50031D740 /* DailyMoney */;
+			targetProxy = 312FC3C026175FD80031D740 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		312FC3C626175FD80031D740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		312FC3C726175FD80031D740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		312FC3C926175FD80031D740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DailyMoney/Preview Content\"";
+				DEVELOPMENT_TEAM = 7X8BLQTS87;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DailyMoney/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.takpika.DailyMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		312FC3CA26175FD80031D740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DailyMoney/Preview Content\"";
+				DEVELOPMENT_TEAM = 7X8BLQTS87;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DailyMoney/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.takpika.DailyMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		312FC3CC26175FD80031D740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7X8BLQTS87;
+				INFOPLIST_FILE = DailyMoneyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.takpika.DailyMoneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyMoney.app/DailyMoney";
+			};
+			name = Debug;
+		};
+		312FC3CD26175FD80031D740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7X8BLQTS87;
+				INFOPLIST_FILE = DailyMoneyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.takpika.DailyMoneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyMoney.app/DailyMoney";
+			};
+			name = Release;
+		};
+		312FC3CF26175FD80031D740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7X8BLQTS87;
+				INFOPLIST_FILE = DailyMoneyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.takpika.DailyMoneyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DailyMoney;
+			};
+			name = Debug;
+		};
+		312FC3D026175FD80031D740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7X8BLQTS87;
+				INFOPLIST_FILE = DailyMoneyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.takpika.DailyMoneyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DailyMoney;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		312FC39E26175FD50031D740 /* Build configuration list for PBXProject "DailyMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				312FC3C626175FD80031D740 /* Debug */,
+				312FC3C726175FD80031D740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		312FC3C826175FD80031D740 /* Build configuration list for PBXNativeTarget "DailyMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				312FC3C926175FD80031D740 /* Debug */,
+				312FC3CA26175FD80031D740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		312FC3CB26175FD80031D740 /* Build configuration list for PBXNativeTarget "DailyMoneyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				312FC3CC26175FD80031D740 /* Debug */,
+				312FC3CD26175FD80031D740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		312FC3CE26175FD80031D740 /* Build configuration list for PBXNativeTarget "DailyMoneyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				312FC3CF26175FD80031D740 /* Debug */,
+				312FC3D026175FD80031D740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 312FC39B26175FD50031D740 /* Project object */;
+}
